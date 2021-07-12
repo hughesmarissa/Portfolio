@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Required Page Links -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- required fontawesome link for this page -->
+    <script src="https://kit.fontawesome.com/2b12307a36.js" crossorigin="anonymous"></script>
+
+
+    <!-- reuired CSS for this page -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <!-- required JS for this page -->
+    <link href="index.js" rel="stylesheet" type="text/js">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css" />
+
     <title>Personal Portfolio Page</title>
 </head>
+
+
+
 <body>
+    <header class="jumbotron jumbotron-fluid"> 
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col">
+                    <h1> Marissa Hughes </h1>
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<section>
+    <div class="tabs">
+        
+      <div class="tab-2">
+        <label for="tab2-1">One</label>
+        <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+        <div>
+          <h4>Tab One</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui. Sed laoreet condimentum nisi a egestas.</p><p>Donec interdum ante ut enim consequat, quis varius nulla dapibus. Vivamus mollis fermentum augue a varius. Vestibulum in sapien at lectus gravida lobortis vulputate sed metus. Duis scelerisque justo et maximus efficitur. Donec eu eleifend quam. Curabitur aliquet commodo sapien eget vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum vel aliquet nunc, finibus posuere lorem. Suspendisse consectetur volutpat est ut ornare.</p>
+        </div>
+      </div>
+      
+      <div class="tab-2">
+        <label for="tab2-2">Two</label>
+        <input id="tab2-2" name="tabs-two" type="radio">
+        <div>
+          <h4>Tab Two</h4>
+          <p>Quisque sit amet turpis leo. Maecenas sed dolor mi. Pellentesque varius elit in neque ornare commodo ac non tellus. Mauris id iaculis quam. Donec eu felis quam. Morbi tristique lorem eget iaculis consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean at tellus eget risus tempus ultrices. Nam condimentum nisi enim, scelerisque faucibus lectus sodales at.</p>
+        </div>
+      </div>
+
+    </div>
+</section>  
     
+
+
+    <footer>
+    <div class="footer-container">
+        <div class="row">
+            <div class="col-12">
+                <ul class ="list-unstyled" id="services">
+                    <li>
+                        <a href="https://www.instagram.com/saludamordinero/">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/hughes.marissa331">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+          
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCfrR12maLrF41dhRCghlqVA">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                    </li> 
+                    
+                    <li>
+                        <a href="https://github.com/hughesmarissa">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    insert contact info
+    </footer>
+    
+<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
 </body>
+
 </html>
